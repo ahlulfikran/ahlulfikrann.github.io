@@ -1,0 +1,21 @@
+.image {
+  filter: grayscale();
+}
+
+.menu {
+  display: flex;
+  justify-content: right;
+}
+
+
+
+
+
+@media screen and (min-width:600px) {
+  .bio {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1442px) {}
